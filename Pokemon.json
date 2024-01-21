@@ -1,0 +1,135 @@
+{
+    "Pokemons":{
+    
+        "pokemon":[
+            {
+                "identificador":0,
+                "nombre":"Mudkip",
+                "Tipos":"Aigua",
+                "Pes":{
+                    "Kilogramos":"Kg",
+                    "text":7.6
+                    },
+                "altura":{
+                "metros":"m",
+                "text":0.4
+                },
+                "estadisticas":{
+                    "Puntos_salud":50,
+                    "Ataque":70,
+                    "Defensa":50,
+                    "At_especial":50,
+                    "Def_especial":50,
+                    "Velocidad":40
+                },
+                "movimientos":[
+                    {
+                        "nom":"pistola agua ",
+                        "descripcion":"Pistola agua causa daño y no tiene ningún efecto secundario.",
+                        "potencia":40,
+                        "prioridad":"false",
+                        "contacte":"false"   
+                    },
+                    {
+                        "nom":"lanzarrocas",
+                        "descripcion":"Lanzarrocas causa daño y no tiene ningún efecto secundario. Este movimiento tiene una precisión del 65%",
+                        "potencia":50,
+                        "prioridad":"false",
+                        "contacte":"false"
+                    },
+                    {
+                        "nom":"hidropulso",
+                        "descripcion":"Hidropulso causa daño y tiene una probabilidad del 20% de confundir al objetivo.Es uno de los movimientos basados en pulsos, es decir, que es potenciado en un 50% por la habilidad megadisparador",
+                        "potencia":60,
+                        "prioridad":"false",
+                        "contacte":"false"
+                    },
+                    {
+                        "nom":"avalancha",
+                        "descripcion":"Avalancha tiene ahora una probabilidad del 30% de amedrentar al objetivo.",
+                        "potencia":75,
+                        "prioridad":"false",
+                        "contacte":"false" 
+                }
+            ]
+        },
+        {
+                "evolucions":[
+                    {
+                        "identificador":1,
+                        "nombre":"Marshtomp",
+                        "nivel": 16
+                    },
+                    {
+                        "identificador":2,
+                        "nombre":"Swampert",
+                        "nivel":36
+                    }
+                ]           
+            },
+            {
+                "identificador":3,
+                "nombre":"Zorua",
+                "Tipos":"Siniestro",
+                "Pes":{
+                    "Kilogramos":"Kg",
+                    "text":12.5
+                },
+                "altura":{
+                    "metros":"m",
+                    "text":0.7
+                },
+                "estadisticas": {
+                    "Puntos_salud":40,
+                    "Ataque":65,
+                    "Defensa":40,
+                    "At_especial":80,
+                    "Def_especial":40,
+                    "Velocidad":65
+                },
+                "movimientos":[
+                    {
+                        "nom":"arañazo ",
+                        "descripcion":"Arañazo causa daño y no tiene ningún efecto secundario.",
+                        "potencia":40,
+                        "prioridad":"false",
+                        "contacte":"true"   
+                    },
+                    {
+                        "nom":"Pulso noche",
+                        "descripcion":"Pulso noche causa daño y tiene una probabilidad del 40% de bajar un nivel la precisión del objetivo.",
+                        "potencia":85,
+                        "prioridad":"false",
+                        "contacte":"false"
+                    },
+                    {
+                        "nom":"Juego sucio",
+                        "descripcion":"Juego sucio causa daño y no tiene ningún efecto secundario. Sin embargo, en vez de calcular el daño con la característica de ataque del usuario, se calcula con la característica de ataque del Pokémon objetivo, teniendo en cuenta aumentos o disminuciones en este. Otros modificadores, como objetos o quemaduras, no son tenidos en cuenta si afectan al objetivo, pero sí si lo hacen al usuario. Por ejemplo, si el objetivo de juego sucio está quemado, no recibirá menos daño, pero este daño sí será menor si el usuario de juego sucio está quemado ",
+                        "potencia":95,
+                        "prioridad":"false",
+                        "contacte":"true"
+                    },
+                    {
+                        "nom":"desarme",
+                        "descripcion":"Desarme causa daño al objetivo y, si este lleva un objeto equipado, quedará inutilizable durante el resto del combate, pero lo seguirá teniendo equipado. El objeto eliminado no puede recuperarse mediante reciclaje ni cosecha, en el caso de bayas. Al terminar el combate, el objeto se podrá volver a usar. Desarme tiene una potencia de 20 y 20 PP.",
+                        "potencia":65,
+                        "prioridad":"false",
+                        "contacte":"true" 
+                    }
+                ]
+            },
+            {
+                "evolucions":[
+                    {
+                        "identificador":4,
+                        "nombre":"Zoroark",
+                        "nivel":30
+                    }
+                ]
+            }
+        ]
+    }   
+}
+
+        
+    
